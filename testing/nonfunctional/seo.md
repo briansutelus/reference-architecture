@@ -1,4 +1,6 @@
 # Search Engine Optimization (SEO) Testing
+[
+UPDATE: The SEO Standards are now located at the BRC website](https://www.telus.com/en/brand-resources/standards/seo). 
 
 ## Why
 
