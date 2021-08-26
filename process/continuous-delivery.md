@@ -19,6 +19,11 @@ Continuous delivery is a natural superset of continuous integration. It strives 
 
 Definitions of Continuous Delivery vs Continuous Deployment are still up for debate. Some believe Continuous Deployment is only achieved if the push to production is completely automated, with no manual steps. Others believe that manual gating is fine, as long as the deployment is automated.
 
+While writing *The DevOps Handbook*, Jez Humble updated his definitions of continuous delivery and continuous deployment to the following:
+> When all developers are working in small batches on trunk, or everyone is working off trunk in short-lived feature branches that get merged to trunk regularly, and when trunk is always kept in a releasable state, and when we can release on demand at the push of a button during normal business hours, we are doing continuous delivery.
+> 
+> In addition to the above, when we are deploying good builds into production on a regular basis through self-service (being deployed by Dev or Ops) - which typically means that we are deploying to production at least once per day per developer, or perhaps even automatically deploying every change a developer commits - this is when we are engaging in continuous deployment.
+
 ## How
 
 Our delivery pipeline standards currently automate the deployment all the way to production:
@@ -49,5 +54,6 @@ If you find yourself not clicking the button to deploy to production, ask yourse
 ## References
 
 - [Continuous Delivery (Jez Humble)](https://continuousdelivery.com/)
+- [The DevOps Handbook (Gene Kim, Jez Humble, Patrick Debois, and John Willis)](https://itrevolution.com/the-devops-handbook/)
 - [Stackoverflow](https://stackoverflow.com/questions/28608015/continuous-integration-vs-continuous-delivery-vs-continuous-deployment)
 - [Wikipedia](https://en.wikipedia.org/wiki/Continuous_delivery)
