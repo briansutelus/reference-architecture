@@ -15,10 +15,9 @@ aren't ready to be shared publicly.
 
 In order to facilitate shared access to private NPM packages that we share
 internally we use shared accounts and access tokens. Developers can find the
-shared `.npmrc` token in Vault or using Shippy:
+shared `.npmrc` token in Vault using Shippy:
 
 ```bash
-vault read secret/common/npmrc-dev
 shippy get secret npmrc-dev --common --field=npmrc
 ```
 
