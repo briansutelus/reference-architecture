@@ -6,11 +6,20 @@ Ensuring all your users, including those with disabilities, are able to effectiv
 
 ## What
 
+Configure and run tests automatically in your pipeline
+
 ## How
+
+Use [axe](https://www.deque.com/axe/) to accessiblity test after the application is deployed to staging.
 
 ## When
 
+Writing accessiblity tests: Up on story completion, make sure to include the assertion, also make sure to pull the latest starter-kit change regarding accessiblity checklist
+
+Running accessiblity tests: As part of the delivery pipeline
+
 ## Who
+@delivery @dev
 
 ## Standards
 
