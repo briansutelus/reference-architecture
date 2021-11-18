@@ -64,6 +64,10 @@ ie: Given a `Card` that gets wrapped in an HoC, the directory structure should l
   - EnhancedCard.jsx
   - index.js
 ```
+### Unit Testing Tools
+- [Jest](https://jestjs.io/) - An excellent Javascript Testing Framework that includes everything you need to test Node.js projects such as an asssertion library, code coverage, and mocks. Being built by Facebook, it is well suited to test React projects and includes support for TypeScript as well.
+
+- [Mocha](https://mochajs.org/) - Another great Javascript Testing Framework that can be used in conjunction with other libraries such as [Chai](https://www.chaijs.com/) to extend its assertion library. It is a tried and true testing framework that can be customized by using other libraries to extend certain testing features.
 
 ## Who
 
